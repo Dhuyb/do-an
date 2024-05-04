@@ -10,6 +10,7 @@
 
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -25,6 +26,8 @@ a {
     text-decoration: none;
 }
 header {
+    position: sticky;
+    top: 0;
     height: 120px;
     background-color: #191919;
     z-index: 1;
@@ -130,7 +133,7 @@ color: #ffffff;
     width: 25%;
  } 
 .menu-title {
-    font-size: 2.4rem;
+    /* font-size: 2.4rem; */
     color: #fff;
     font-weight: 200;
     margin: 10px 0 20px 0;
