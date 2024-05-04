@@ -97,7 +97,7 @@ color: #ffffff;
     display: block;
 }
 .menu-lay { 
-    width: 100vw;
+    /* width: 100vw; */
     left: 0;
     right: 0;
     height: 230px;
