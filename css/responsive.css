@@ -1,0 +1,60 @@
+
+/* mobi */
+@media (max-width:739px) {
+   
+
+}
+/* tablet */
+@media (min-width:740px) and (max-width:1023px) {
+    .menu-repon {
+        display: block;
+        width: 60px;
+        height: 60px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        margin-left: 20px;
+    }
+    .navbar {
+        height: 90px;
+    }
+   
+   
+}
+/* tablet and mobi */
+@media (max-width:1023px) {
+    .main {
+        overflow: hidden;
+    }
+    .nav-list {
+        display: none;
+    }
+    header {
+        height: 90px;
+    }
+    .logo {
+        height: 80px;
+    }
+    .down.content, .slide.content, .thumb .content {
+        max-width: 100%;
+    }
+    .slide-left {
+        width:50%;
+        height: unset;
+    }
+    .slide-content, .slide-right {
+        gap: 6px;
+    }
+    .slide-history {
+        height: unset;
+        flex: 1 0 calc(50% - 3px);
+    }
+    .down {
+        padding: 16px 0;
+    }
+    .thumb {
+        margin: 16px 0;
+    }
+    
+    
+}
