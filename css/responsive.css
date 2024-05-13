@@ -1,11 +1,64 @@
 /* tablet and mobi */
 @media (max-width:1023px) {
-    .main {
+    /* .main {
         overflow: hidden;
+    } */
+    .col-mc-4 {
+        flex: 0 0 33.333333%;
+        padding: 8px;
     }
     .nav-list {
         display: none;
+        flex-direction: column;
+        height: 800px;
     }
+    .nav-list.open-flex {
+        display: flex;
+    }
+    .nav-link {
+        color: #000;
+    }
+    .modal-menu .navbar {
+        flex-direction: column;
+        align-items: start;
+        gap: 60px;
+    }
+    .modal-menu .logo {
+        height: 100px;
+    }
+   
+    .modal-menu .nav-list {
+        width: 100%;
+    }
+    .modal-menu .nav-item {
+        height: 80px;
+        position: relative;
+    }
+    .modal-menu .nav-link {
+        font-size: 2.8rem;
+        font-weight: 600;
+    }
+    .modal-menu .menu-lay {
+        height: unset;
+    }
+    .modal-menu .content {
+        max-width: calc(100% - 12px);
+    }
+    .modal-menu .menu-list  {
+        overflow: hidden;
+    flex-wrap: wrap;
+    padding: 50px 0;
+    }
+    .modal-menu .menu-desc {
+        font-size: 2rem;
+    }
+    .modal-menu .menu-food-link{
+        font-size: 2rem;   
+    }
+    .modal-menu .menu-title {
+        font-size: 2.4rem;
+    }
+    
  
     .down.content, .slide.content, .thumb .content {
         max-width: 100%;
@@ -94,6 +147,43 @@
     }
     .baner-tile {
         opacity: 0.6;
+    }
+    .footer .content {
+        max-width: calc(100% - 12px);
+    }
+    .foot-top {
+        flex-direction: column;
+    }
+    .foot-feedback {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .foot-email {
+        width: 100%;
+    }
+    .foot-feedback p {
+        text-align: center;
+    }
+    .foot-feedback .btn {
+        max-width: unset;
+        min-width: 210px;
+    }
+    .control input {
+        width: 80%;
+    }
+    
+    .col-m-6 {
+        flex: 0 0 50%;
+        padding:0 4px;
+    }
+    
+    .foot-bot {
+        margin:0 -4px;
+    }
+    .copy-desc {
+        text-align: center;
     }
 }
 /* tablet */

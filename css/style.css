@@ -171,7 +171,7 @@ color: #ffffff;
 }
 .btn {
     font-size: 1.4rem;
-    font-weight: 200px;
+    font-weight: 200;
     height: 48px;
     max-width: 240px;
     display: flex;
@@ -324,6 +324,7 @@ color: #444;
     opacity: 0.9;
 }
 .foot-bot {
+    flex-wrap: wrap;
     display: flex;
     border-top: 1px solid #ccc;
     padding-bottom: 20px;
@@ -370,4 +371,94 @@ background-color: #191919;
     color: #fff;
     text-align: right;
     font-weight: 100;
+}
+.modal {
+    display: none;
+    z-index: 2;
+    position: fixed;
+    background-color: rgba(0,0,0,0.5);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    animation: fade linear 0.3s;
+}
+.modal-lay {
+    position: relative;
+    width: 80%;
+    background-color: #fff;
+    height: 100%;
+    z-index: 3;
+    animation: apper linear 0.3s;
+    /* transition: transform ease 0.3s; */
+}
+.modal-menu {
+    height: 100%;
+    width: 100%;
+}
+.exit-menu {
+    position: absolute;
+    gap: 10px;
+    top: 15px;
+    right: 20px;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.exit-menu span {
+    color: #000;
+    font-size: 3rem;
+}
+.exit-menu i {
+    font-size: 3rem;
+    
+}
+
+.open-flex {
+    display: flex;
+}
+.open-block {
+    display: block;
+}
+.none {
+    display: none;
+}
+
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes apper {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes fadeReverse {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+@keyframes apperReverse {
+    from {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    to {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
 }

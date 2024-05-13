@@ -8,6 +8,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&display=swap" rel="stylesheet">
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
@@ -20,7 +24,7 @@
         <header>
             <div class="content">
                 <nav class="navbar">
-                    <a href="#!">
+                    <a href="#">
                         <img src="./img/logo.webp" alt="" class="logo">
 
                     </a>
@@ -170,7 +174,7 @@
                             <span class="desc-bot">McDelivey</span>
                         </div>
                     </a>
-                    <a href="#!" class="menu-repon" style="background-image: url(./img/menu-repon.png);"></a>
+                    <span href="#!" class="menu-repon" style="background-image: url(./img/menu-repon.png);"></span>
                 </nav>
             </div>
         </header>
@@ -244,7 +248,7 @@
 
                 <div class="foot-bot">
                     <!-- col 1 -->
-                    <div class="col-4">
+                    <div class="col-4 col-m-6">
                         <h3 class="foot-bot-title">Tìm hiểu</h3>
                         <ul class="foot-bot-list">
                             <li class="foot-bot-item">
@@ -268,7 +272,7 @@
                         </ul>
                     </div>
                     <!-- col 2 -->
-                    <div class="col-4">
+                    <div class="col-4 col-m-6">
                         <h3 class="foot-bot-title">Cơ hội nghề nghiệp</h3>
                         <ul class="foot-bot-list">
                             <li class="foot-bot-item">
@@ -277,7 +281,7 @@
                         </ul>
                     </div>
                     <!-- col 3 -->
-                    <div class="col-4">
+                    <div class="col-4 col-m-6">
                         <h3 class="foot-bot-title">Chính sách</h3>
                         <ul class="foot-bot-list">
                             <li class="foot-bot-item">
@@ -305,7 +309,7 @@
                         </ul>
                     </div>
                     <!-- col 4 -->
-                    <div class="col-4">
+                    <div class="col-4 col-m-6">
                         <h3 class="foot-bot-title">Liên hệ với chúng tôi</h3>
                         <ul class="foot-bot-list">
                             <li class="foot-bot-item">
@@ -342,7 +346,157 @@
                 </div>
             </div>
         </footer>
+
+        <div class="modal">
+            <div class="modal-lay">
+                <div class="modal-menu">
+                    <nav class="navbar">
+                        <a href="">
+                            <img src="./img/logo.webp" alt="" class="logo">
+
+                        </a>
+                        <ul class="nav-list open-flex">
+                            <li class="nav-item">
+                                <a href="" class="nav-link">Trang chủ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#!" class="nav-link">Tìm hiểu</a>
+                                <div class="menu-lay">
+                                    <div class="content menu-list">
+                                        <a href="#!" class="menu-item col-mc-4">
+                                            <img src="./img/lichsu.webp" alt="" class="menu-img">
+                                            <span class="menu-desc">Lịch sử</span>
+                                        </a>
+                                        <a href="#!" class="menu-item col-mc-4">
+                                            <img src="./img/introduce.webp" alt="" class="menu-img">
+                                            <span class="menu-desc">Giới thiệu</span>
+                                        </a>
+                                        <a href="#!" class="menu-item col-mc-4">
+                                            <img src="./img/origin.webp" alt="" class="menu-img">
+                                            <span class="menu-desc">Xuất sứ</span>
+                                        </a>
+                                        <a href="#!" class="menu-item col-mc-4">
+                                            <img src="./img/supplier.webp" alt="" class="menu-img">
+                                            <span class="menu-desc">Nhà cung cấp</span>
+                                        </a>
+                                        <a href="#!" class="menu-item col-mc-4">
+                                            <img src="./img/servi.webp" alt="" class="menu-img">
+                                            <span class="menu-desc">Dịch vụ</span>
+                                        </a>
+                                        <a href="#!" class="menu-item col-mc-4">
+                                            <img src="./img/safe-food.webp" alt="" class="menu-img">
+                                            <span class="menu-desc">An toàn thực phẩm</span>
+                                        </a>
+
+
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#!" class="nav-link">Thực đơn</a>
+                                <div class="menu-lay menu-lay-2">
+                                    <div class=" content menu-list-2">
+                                        <div class="menu-col col-mc-4">
+                                            <h2 class="menu-title text-2xl">Menu chính</h2>
+                                            <ul class="menu-food-list">
+                                                <li class="menu-food-item">
+                                                    <a href="" class="menu-food-link">Phần Ăn EVM</a>
+                                                </li>
+                                                <li class="menu-food-item">
+                                                    <a href="" class="menu-food-link">Bánh Burger</a>
+                                                </li>
+                                                <li class="menu-food-item">
+                                                    <a href="" class="menu-food-link">Gà Rán</a>
+                                                </li>
+                                                <li class="menu-food-item">
+                                                    <a href="" class="menu-food-link">Thức Uống</a>
+                                                </li>
+                                                <li class="menu-food-item">
+                                                    <a href="" class="menu-food-link">Tráng Miệng</a>
+                                                </li>
+                                                <li class="menu-food-item">
+                                                    <a href="" class="menu-food-link">Phần Ăn Trẻ Em</a>
+                                                </li>
+                                                <li class="menu-food-item">
+                                                    <a href="" class="menu-food-link">Món Ăn Nhẹ</a>
+                                                </li>
+                                                <li class="menu-food-item">
+                                                    <a href="" class="menu-food-link">Combo từ 39K</a>
+                                                </li>
+                                                <li class="menu-food-item">
+                                                    <a href="" class="menu-food-link">Combo</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="menu-col col-mc-4">
+                                            <h2 class="menu-title">Điểm tâm</h2>
+                                            <ul class="menu-food-list">
+                                                <li class="menu-food-item">
+                                                    <a href="" class="menu-food-link">Phần Ăn EVM</a>
+                                                </li>
+                                                <li class="menu-food-item">
+                                                    <a href="" class="menu-food-link">Bánh Muffin</a>
+                                                </li>
+                                                <li class="menu-food-item">
+                                                    <a href="" class="menu-food-link">Nước Uống</a>
+                                                </li>
+                                                <li class="menu-food-item">
+                                                    <a href="" class="menu-food-link">Tráng Miệng</a>
+                                                </li>
+                                                <li class="menu-food-item">
+                                                    <a href="" class="menu-food-link">Phần Ăn Trẻ Em</a>
+                                                </li>
+                                                <li class="menu-food-item">
+                                                    <a href="" class="menu-food-link">Món Ăn Nhẹ</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="menu-col col-mc-4">
+                                            <h2 class="menu-title">McCafe</h2>
+                                            <ul class="menu-food-list">
+                                                <li class="menu-food-item">
+                                                    <a href="" class="menu-food-link">Thức Uống Nóng</a>
+                                                </li>
+                                                <li class="menu-food-item">
+                                                    <a href="" class="menu-food-link">Thức Uống Đá</a>
+                                                </li>
+                                                <li class="menu-food-item">
+                                                    <a href="" class="menu-food-link">Sữa Chua Trái Cây</a>
+                                                </li>
+                                                <li class="menu-food-item">
+                                                    <a href="" class="menu-food-link">Bánh Tráng Miệng</a>
+                                                </li>
+                                                <li class="menu-food-item">
+                                                    <a href="" class="menu-food-link">Thức Uống Trà</a>
+                                                </li>
+                                                <li class="menu-food-item">
+                                                    <a href="" class="menu-food-link">Thức Uống Đá Xay</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#!" class="nav-link">Khuyến mãi</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#!" class="nav-link">Tin tức</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#footer" class="nav-link">Liên hệ</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="exit-menu">
+                    <span>Exit</span>
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+        </div>
     </div>
+    <script src="js/mainjs.js"></script>
 </body>
 
 </html>
