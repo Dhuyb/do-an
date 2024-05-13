@@ -1,26 +1,3 @@
-
-/* mobi */
-@media (max-width:739px) {
-   
-
-}
-/* tablet */
-@media (min-width:740px) and (max-width:1023px) {
-    .menu-repon {
-        display: block;
-        width: 60px;
-        height: 60px;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: contain;
-        margin-left: 20px;
-    }
-    .navbar {
-        height: 90px;
-    }
-   
-   
-}
 /* tablet and mobi */
 @media (max-width:1023px) {
     .main {
@@ -29,12 +6,7 @@
     .nav-list {
         display: none;
     }
-    header {
-        height: 90px;
-    }
-    .logo {
-        height: 80px;
-    }
+ 
     .down.content, .slide.content, .thumb .content {
         max-width: 100%;
     }
@@ -57,4 +29,92 @@
     }
     
     
+}
+/* mobi */
+@media (max-width:739px) {
+    header {
+        height: 60px;
+    }
+    .logo {
+        height: 60px;
+    }
+    .head-location {
+        height: 40px;
+    }
+    .img-loca {
+        width: 30px;
+        margin: 0 12px 0 0;
+    }
+    .desc-top, .desc-bot {
+        font-size: 1.35rem;
+    }
+    .menu-repon {
+        display: block;
+        width: 45px;
+        height: 45px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        margin-left: 10px;
+    }
+    .logo {
+        margin: 0;
+    }
+    header .content {
+        max-width: calc(100% - 16px);
+    }
+    .mr-a {
+        margin-left: 8px;
+    }
+    .down {
+        padding: 8px 0;
+    }
+    .slide-history .desc {
+        line-height: 1rem;
+        font-size: 0.85rem;
+        bottom: 0px;
+        left: 4px;
+        font-weight: 700;
+    }
+    .slide-left .desc {
+        font-weight: 600;
+        bottom: 0;
+        left: 2px;
+        font-size: 3rem;
+    }
+    .thumb {
+        background-position: -905px;
+    }
+    .baner-desc {
+        display: none;
+    }
+    .thumb-baner {
+        width: 100%;
+        gap: 110px;
+    }
+    .baner-tile {
+        opacity: 0.6;
+    }
+}
+/* tablet */
+@media (min-width:740px) and (max-width:1023px) {
+    .menu-repon {
+        display: block;
+        width: 60px;
+        height: 60px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        margin-left: 20px;
+    }
+    .navbar {
+        height: 90px;
+    }
+    header {
+        height: 90px;
+    }
+    .logo {
+        height: 80px;
+    }
+   
 }
