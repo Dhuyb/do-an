@@ -53,10 +53,13 @@
         font-size: 2rem;
     }
     .modal-menu .menu-food-link{
-        font-size: 2rem;   
+        font-size: 1.5rem;   
     }
     .modal-menu .menu-title {
         font-size: 2.4rem;
+    }
+    .modal-menu .menu-lay-2 {
+        padding: 0;
     }
     
  
